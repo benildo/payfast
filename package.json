@@ -1,0 +1,27 @@
+{
+  "name": "payfast",
+  "version": "1.0.0",
+  "description": "Um gateway de pagamentos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benildo/payfast.git"
+  },
+  "keywords": [
+    "gateway",
+    "pagamentos",
+    "api"
+  ],
+  "author": "benildojunior",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benildo/payfast/issues"
+  },
+  "homepage": "https://github.com/benildo/payfast#readme",
+  "dependencies": {
+    "express": "^4.17.0"
+  }
+}
