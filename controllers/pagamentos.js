@@ -3,5 +3,11 @@ module.exports = function (app){
         console.log('Requisição recebida')
         res.send('Tudo funcionando');
     });
+
+    app.post('/pagamentos/pagamento', function(req, res){
+        var pagamento = req.boby;
+        console.log(pagamento)
+        res.send('Ok.');
+    })
 }
 
